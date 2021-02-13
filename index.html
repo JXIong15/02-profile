@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Jou's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div id="absolute">
+        <h1>Jou Xiong's Online Portfolio</h1>
+    </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">My Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="coverPhoto" alt="blue background">
+        <h2>My Journey So Far</h2>
+    </div>
+
+    <main class="content">
+        <section id="about" class="layout">
+            <img src="./assets/headshot.jpg" class="float-left" alt="headshot"/>
+            <h2>About Me</h2>
+            <p>
+                Hometown: Milwaukee, WI
+                Currently Residing: Milwaukee, WI
+                Desired Locations: 
+                    <li>Milwaukee, WI</li>
+                    <li>San Jose, CA</li>
+                Education: Stanford University, 2019
+                    <li><a href="https://symsys.stanford.edu/">Major: Symbolic Systems</a></li>
+                <br>
+                As someone who continues to be influenced by the many mentors around me, my passion for education, especially higher education, continues to grow. 
+                I’m excited by anything involving youth and higher education. Moreover, applicable problem solving has always been an interest of mine I enjoy. After 
+                some time solely in education, I am ready to get back into STEM through software engineering. Developing applications and webpages are 
+                equally challenging and rewarding. I hope to gain more experience in my technology field to some day combine both my passions of education and coding.
+            </p>
+            <img src="Assets/packers.jpeg" class="float-left" alt="Green Bay Packers logo"/>
+            <img src="Assets/education.jpeg" class="float-left" alt="students learning on tablets"/>
+            <img src="Assets/stanford.jpeg" class="float-left" alt="Stanford Universirty"/>
+        </section>
+
+        <section id="work" class="layout">
+            <img src="./assets/code.jpeg" class="float-right" alt="code on a screen"/>
+            <h2>My Work</h2>
+            <p>
+                Currently, this is work I have been working on in my coding bootcamp through Northwestern University. I will be adding more projects as I work on them.
+                The most recent work will be at the top of this section.
+            </p>
+
+             <!-- Different Projects -->
+            <ul>
+                <li>
+                    <a href="#editing-code">Editing Existing Code (HTML)</a>
+                </li>
+                <li>
+                    <a href="#pass-generator">Generate Password (JS)</a>
+                </li>
+                <li>
+                    <a href="#quiz">Code Quiz</a>
+                </li>
+                <li>
+                    <a href="#day-planner">Day Planner</a>
+                </li>
+                <li>
+                    <a href="#weather-dash">Weather Dashboard</a>
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="layout">
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Social Media Icons"/>
+            <h2>Contact Me</h2>
+            <p>
+                <li>
+                    <a href="mailto: jouxiong15@gmail.com">Email: jouxiong15@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jou-xiong-109035112/">LinkedIn</a>
+                </li>
+                <li>
+                    Phone: 414-630-8549
+                </li>
+
+                <!-- creates a textbox on the page for direct contact -->
+                <h3>Add a Comment:</h3>
+                    <p>
+                        <label for="username">Name:</label>
+                        <input class="text-input" id="username" type="text" placeholder="First Last" />
+                    </p>
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input class="text-input" id="email" type="text" placeholder="me@example.com" />
+                    </p>
+                    <p>
+                        <label for="comment">Comment:</label>
+                        <textarea class="text-input" id="comment"></textarea>
+                    </p>
+                    <p>
+                        <button>Submit</button>
+                        </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2021 Jou Xiong, Northwestern Coding Bootcamp.
+        </p>
+    </footer>
+</body>
+
+</html>
