@@ -126,10 +126,10 @@ p {
 }
 
 /* headers for each photo */
-.container3 a {
+.container3 a,
+.container5 a {
     font-size:18px;
     text-decoration: none;
-    margin-bottom: 50px;
 }
 
 /* image for each project */
@@ -143,7 +143,8 @@ p {
 }
 
 /* the image glows upon the mouse hovering over it */
-.container3 img:hover {
+.container3 img:hover,
+.container5 img:hover {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -153,13 +154,16 @@ p {
 }
 
 /* to indicate once the project is clicked on  */
-.container3 img:active {
+.container3 img:active,
+.container5 img:active {
     border-width: 10px;
 }
 /* NEED TO FIGURE OUT WHEN CLICKING ON THE TEXT */
 
-.container3 #absolute {
-    margin-top: -100px;
+/* Positions the text box over the image */
+.container3 #absolute,
+.container5 #absolute {
+    margin-top: -80px;
     margin-left: 0;
 }
 
@@ -182,6 +186,20 @@ p {
 
 .container4 li {
     margin-top: 5px;
+}
+
+.container5 {
+    flex: 0 0 70%;
+}
+
+/* image for each project */
+.container5 img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(43, 241, 248);
+    height: 250px;;
+    width: 750px;
+    margin-right: 50px;
 }
 
 /* the line that separates the section header and section */
