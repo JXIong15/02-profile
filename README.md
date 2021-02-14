@@ -1,25 +1,25 @@
 # 02 Advanced CSS: Portfolio
 
-## Your Task
+* Functioning Website link: https://jxiong15.github.io/02-profile/
+* GitHub Repository Link: https://github.com/JXIong15/02-profile
+* * Displays an online portfolio with working links to all of my projects.
 
-Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+## Functionalisty
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+* By clicking on the subheaders in the top right corner, the user will be brought to the correct section on the page.
+* By clicking on the embedded links, the user will be brought to the correct websites.
+* By clicking on any of the "My Work" images and text labels, the user will be brought to the working application I have completed.
+* In the "Contact Me" section: T
+* * The user can click on the underlined email to bring up their email application. The email line will already have my email on it.
+* * By clicking on the LinkedIn link, the user is brought ot my LinkedIn profile.
+* * By clicking "Back to Top" the user is brought back to the top of the website with the headings.
 
-With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+## Website Images
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+* Heading and About Me: 
+(../Assets/Header.png)
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
-
-
-## User Story
-
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+![The navigation links are aligned to the right, and the slideshow buttons are center aligned.]
 
 
 ## Acceptance Criteria
@@ -28,27 +28,10 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 
 ```
 GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
+
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
 
 ## Grading Requirements
 
