@@ -63,16 +63,10 @@ p {
     color: #fff;
 }
 
-.container1 img {
-    margin-top: 10px;
-    margin-left: 60px;
-    height: 180px;
-}
-
 .content {
     width: 100%;
     display: inline-block;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .layout {
@@ -85,8 +79,14 @@ p {
 
 .container1 {
     flex: 0 0 23%;
-    /* need to get this to line up on the right side of the container */
-    align-content: flex-end; 
+    text-align: right;
+    margin-right: 50px;
+}
+
+.container1 img {
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 180px;
 }
 
 .container2 {
@@ -105,15 +105,14 @@ p {
 }
 
 .container3 {
-    width: 200px;
-    
+
 }
 
 /* headers for each photo */
 .container3 a {
     font-size:18px;
     text-decoration: none;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 /* image for each project */
@@ -121,10 +120,10 @@ p {
     border-style: solid;
     border-width: 5px;
     border-color: rgb(43, 241, 248);
-    margin: 0px;
     height: 250px;;
     width: 350px;
-    
+    margin-right: 50px;
+    margin-bottom: 30px;
 }
 
 /* the image glows upon the mouse hovering over it */
@@ -144,8 +143,13 @@ p {
 /* NEED TO FIGURE OUT WHEN CLICKING ON THE TEXT */
 
 .container3 #absolute {
-    margin-top: -70px;
+    margin-top: -100px;
     margin-left: 0;
+}
+
+.container4 {
+    /* flex-direction: column; */
+    justify-content: center;
 }
 
 /* the line that separates the section header and section */
@@ -166,18 +170,21 @@ h3 {
 
 .projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.splitHor {
+    width: 75%;
+    height: 15px;
+    background-color: #3a4458;
+    justify-content: center;
+    flex-direction: column;
 }
 
 footer {
     padding: 30px;
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
 
 /* in the middle */
@@ -195,6 +202,5 @@ footer h2 {
     text-align: center;
     background: rgb(43, 241, 248);
     margin-top: 20px;
-    display: inline;
     margin-left: -20px;
 }
