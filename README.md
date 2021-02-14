@@ -6,7 +6,7 @@
 
 
 ## Functionalitty
-```
+
 * By clicking on the subheaders in the top right corner, the user will be brought to the correct section on the page.
 * By clicking on the embedded links, the user will be brought to the correct websites.
 * By clicking on any of the "My Work" images and text labels, the user will be brought to the working application I have completed.
@@ -14,12 +14,16 @@
     * The user can click on the underlined email to bring up their email application. The email line will already have my email on it.
     * By clicking on the LinkedIn link, the user is brought ot my LinkedIn profile.
     * By clicking "Back to Top" the user is brought back to the top of the website with the headings.
-```
+
 
 ## Website Images
-
+* Heading and About Me: 
 ![Heading and About Me](./Assets/Header.png)
+
+* My Work: 
 ![My Work](./Assets/Work.png)
+
+* Contact Me: 
 ![Contact Me](./Assets/Contact.png)
 
 
