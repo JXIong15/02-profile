@@ -18,32 +18,27 @@ header h1 {
 
 header div {
     padding-top: 15px;
-    margin-right: 20px;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-header div ul {
-    list-style-type: none;
+header a {
+    color: #eee; 
+    text-decoration: none;
+    
 }
 
 header div ul li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 25px;
-/* NOT SHOWING */
-    color: #eee; 
 }
 
 span {
     font-weight: bold;
 }
 
-a {
-    color: #3a4458;
-    text-decoration: none;
-    text-decoration: underline;
-}
 
 p {
     font-size: 16px;
@@ -68,6 +63,12 @@ p {
     color: #fff;
 }
 
+.container1 img {
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 180px;
+}
+
 .content {
     width: 100%;
     display: inline-block;
@@ -82,38 +83,90 @@ p {
     display: flex;
 }
 
-.containerA1 {
-    /* padding: 10px; */
-    flex-direction: column;
+.container1 {
     flex: 0 0 23%;
-    justify-content: end;
-
+    /* need to get this to line up on the right side of the container */
+    align-content: flex-end; 
 }
 
-/* the line that separates the two About Me sections */
+.container2 {
+    margin: 50px;
+    margin-top: 0;
+}
+
+.container2 ul li {
+    padding-top: 10px;
+}
+
+.container2 a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #3a4458;
+}
+
+.container3 {
+    width: 200px;
+    
+}
+
+/* headers for each photo */
+.container3 a {
+    font-size:18px;
+    text-decoration: none;
+    margin-bottom: 150px;
+}
+
+/* image for each project */
+.container3 img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(43, 241, 248);
+    margin: 0px;
+    height: 250px;;
+    width: 350px;
+    
+}
+
+/* the image glows upon the mouse hovering over it */
+.container3 img:hover {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgb(0, 255, 255);
+    -moz-box-shadow: 0px 0px 30px 0px rgb(0, 255, 255);
+    box-shadow: 0px 0px 30px 0px rgb(0, 255, 255);
+}
+
+/* to indicate once the project is clicked on  */
+.container3 img:active {
+    border-width: 10px;
+}
+/* NEED TO FIGURE OUT WHEN CLICKING ON THE TEXT */
+
+.container3 #absolute {
+    margin-top: -70px;
+    margin-left: 0;
+}
+
+/* the line that separates the section header and section */
 .layout .split {
     background-color: #3a4458;
     width: 15px;
     margin-bottom: 40px;
 }
 
-.containerA2 {
-    padding-left: 50px;
-    margin-bottom: 50px;
-}
-
-img {
-    margin-left: 60px;
-    max-height: 180px;
-}
-
 .layout h2 {
     font-size: 36px;
 }
 
-.layout ul li {
-    padding-top: 10px;
+h3 {
+    font-size: 12px;
+    font-weight: normal;
+}
 
+.projects {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
