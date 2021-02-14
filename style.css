@@ -3,6 +3,15 @@
     margin: 0;
 }
 
+#absolute {
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    background: rgb(43, 241, 248);
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -48,10 +57,10 @@ p {
 .coverPhoto {
     height: 150px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     background-size: cover;
     background-position: center;
-    background-image: url("./Assets/cover.jpg");
+    background-image: url("./Assets/cover.png");
 }
 
 .coverPhoto h2 {
@@ -85,12 +94,13 @@ p {
 
 .container1 img {
     margin-top: 10px;
-    margin-left: 60px;
-    height: 180px;
+    height: 275px;
 }
 
 .container2 {
-    margin: 50px;
+    flex: 0 0 65%;
+    margin-left: 50px;
+    margin-bottom: 50px;
     margin-top: 0;
 }
 
@@ -104,8 +114,15 @@ p {
     color: #3a4458;
 }
 
-.container3 {
+/* combines two container3 elements into one to flex horizontally */
+.projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
+.container3 {
+    flex: 0 0 35%;
 }
 
 /* headers for each photo */
@@ -123,7 +140,6 @@ p {
     height: 250px;;
     width: 350px;
     margin-right: 50px;
-    margin-bottom: 30px;
 }
 
 /* the image glows upon the mouse hovering over it */
@@ -147,9 +163,25 @@ p {
     margin-left: 0;
 }
 
+/* the contact footer */
 .container4 {
-    /* flex-direction: column; */
     justify-content: center;
+    height: 100px;
+    margin-bottom: 60px;
+}
+
+.container4 .layout {
+    text-align: center;
+    flex-direction: column;
+}
+
+.container4 h2 {
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.container4 li {
+    margin-top: 5px;
 }
 
 /* the line that separates the section header and section */
@@ -157,6 +189,7 @@ p {
     background-color: #3a4458;
     width: 15px;
     margin-bottom: 40px;
+    flex: 0 0 5px;
 }
 
 .layout h2 {
@@ -168,39 +201,25 @@ h3 {
     font-weight: normal;
 }
 
-.projects {
-    display: flex;
-    justify-content: center;
-}
-
-.splitHor {
-    width: 75%;
-    height: 15px;
-    background-color: #3a4458;
-    justify-content: center;
-    flex-direction: column;
-}
-
 footer {
-    padding: 30px;
+    padding: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: #3a4458;
 }
 
-/* in the middle */
-#relative { 
-    position: relative;
-    height: 200px;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+footer h2,
+footer p,
+footer a:link,
+footer a:visited {
+    color: #fff;
 }
 
-#absolute {
-    position: absolute;
-    padding: 10px;
-    text-align: center;
-    background: rgb(43, 241, 248);
-    margin-top: 20px;
-    margin-left: -20px;
+footer ul {
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+footer a:hover {
+    color: rgb(43, 241, 248);
 }
