@@ -140,20 +140,20 @@ h3 {
 
 /* headers for each photo */
 .container3 a,
-.container5 a {
+.container4 a {
     font-size:18px;
     text-decoration: none;
 }
 
 /* spaces the small boxes in the same row apart from each other */
 .container3,
-.container5 {
+.container4 {
     margin-right: 50px;
 }
 
 /* smaller image for each project (not the group project) */
 .container3 img,
-.container5 img {
+.container4 img {
     border-style: solid;
     border-width: 5px;
     border-color: rgb(43, 241, 248);
@@ -163,7 +163,7 @@ h3 {
 
 /* the image glows upon the mouse hovering over it */
 .container3 img:hover,
-.container5 img:hover {
+.container4 img:hover {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -174,35 +174,35 @@ h3 {
 
 /* to indicate once the project is clicked on */
 .container3 img:active,
-.container5 img:active {
+.container4 img:active {
     border-width: 10px;
 }
 
 /* Positions the text box over the image */
 .container3 #absolute,
-.container5 #absolute {
+.container4 #absolute {
     margin-top: -80px;
     margin-left: 0;
 }
 
+/* the large image above container3 */
+.container4 img{
+    width: 750px;
+}
+
 /* the contact footer */
-.container4 {
+.container5 {
     justify-content: center;
     margin-bottom: 20px;
 }
 
-.container4 .layout {
+.container5 .layout {
     flex-direction: column;
 }
 
-.container4 h2,
-.container4 li {
+.container5 h2,
+.container5 li {
     margin: 5px;
-}
-
-/* the large image above container3 */
-.container5 img{
-    width: 750px;
 }
 
 footer {
