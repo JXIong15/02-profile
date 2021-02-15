@@ -39,10 +39,12 @@
     * container2 is everything on the right of the line in each section.
     * container3 is each individual small photo along with their overlapping labels in the "My Work" section.
         * Used the abosolute function to overlay the text label.
-    * container4 is the footer with the contact infomation and copyright.
-    * container5 is the large image above the smaller ones in the "My Work" section.
+    * container4 is the large image above the smaller ones in the "My Work" section.
+    * container5 is the footer with the contact infomation and copyright.
 * Linked correct working links. (See Functionality above)
 
+- - -
+© 2021 Jou Xiong
 
 ## Acceptance Criteria
 
