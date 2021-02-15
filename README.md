@@ -1,7 +1,7 @@
 # 02 Advanced CSS: Portfolio
 
 * Functioning Website link: https://jxiong15.github.io/02-profile/
-    * GitHub Repository Link: https://github.com/JXIong15/02-profile
+* GitHub Repository Link: https://github.com/JXIong15/02-profile
     * Displays an online portfolio with working links to all of my projects.
 
 
