@@ -1,8 +1,5 @@
-* {
-    padding: 0;
-    margin: 0;
-}
 
+/* allows text boxes to overlay other elements */
 #absolute {
     position: absolute;
     padding: 10px;
@@ -21,9 +18,11 @@ header {
 }
 
 header h1 {
-    display: inline-block;
     font-size: 30px;
 }
+
+
+/* formatting for subheadings */
 
 header div {
     padding-top: 15px;
@@ -35,7 +34,6 @@ header div {
 header a {
     color: #eee; 
     text-decoration: none;
-    
 }
 
 header div ul li {
@@ -44,15 +42,7 @@ header div ul li {
     margin-left: 25px;
 }
 
-span {
-    font-weight: bold;
-}
-
-
-p {
-    font-size: 16px;
-    color: #3a4458;
-}
+/* Formatting for the picture under the main heading */
 
 .coverPhoto {
     height: 150px;
@@ -72,134 +62,27 @@ p {
     color: #fff;
 }
 
+
+/* Formatting for the main content */
+
+span {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #3a4458;
+}
+
 .content {
-    width: 100%;
     display: inline-block;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .layout {
-    margin-bottom: 20px;
-    margin-top: -20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #3a4458;
     display: flex;
-}
-
-.container1 {
-    flex: 0 0 23%;
-    text-align: right;
-    margin-right: 50px;
-}
-
-.container1 img {
-    margin-top: 10px;
-    height: 275px;
-}
-
-.container2 {
-    flex: 0 0 65%;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    margin-top: 0;
-}
-
-.container2 ul li {
-    padding-top: 10px;
-}
-
-.container2 a {
-    text-decoration: none;
-    text-decoration: underline;
-    color: #3a4458;
-}
-
-/* combines two container3 elements into one to flex horizontally */
-.projects {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.container3 {
-    flex: 0 0 35%;
-}
-
-/* headers for each photo */
-.container3 a,
-.container5 a {
-    font-size:18px;
-    text-decoration: none;
-}
-
-/* image for each project */
-.container3 img {
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(43, 241, 248);
-    height: 250px;;
-    width: 350px;
-    margin-right: 50px;
-}
-
-/* the image glows upon the mouse hovering over it */
-.container3 img:hover,
-.container5 img:hover {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 30px 0px rgb(0, 255, 255);
-    -moz-box-shadow: 0px 0px 30px 0px rgb(0, 255, 255);
-    box-shadow: 0px 0px 30px 0px rgb(0, 255, 255);
-}
-
-/* to indicate once the project is clicked on  */
-.container3 img:active,
-.container5 img:active {
-    border-width: 10px;
-}
-/* NEED TO FIGURE OUT WHEN CLICKING ON THE TEXT */
-
-/* Positions the text box over the image */
-.container3 #absolute,
-.container5 #absolute {
-    margin-top: -80px;
-    margin-left: 0;
-}
-
-/* the contact footer */
-.container4 {
-    justify-content: center;
-    height: 100px;
-    margin-bottom: 60px;
-}
-
-.container4 .layout {
-    text-align: center;
-    flex-direction: column;
-}
-
-.container4 h2 {
-    margin: 20px;
-    margin-bottom: 0;
-}
-
-.container4 li {
-    margin-top: 5px;
-}
-
-.container5 {
-    flex: 0 0 70%;
-}
-
-/* image for each project */
-.container5 img {
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(43, 241, 248);
-    height: 250px;;
-    width: 750px;
-    margin-right: 50px;
 }
 
 /* the line that separates the section header and section */
@@ -219,8 +102,111 @@ h3 {
     font-weight: normal;
 }
 
+
+/* Containers used for Flexbox */
+
+.container1 {
+    flex: 0 0 20%;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.container1 img {
+    margin-top: 10px;
+    height: 275px;
+}
+
+.container2 {
+    flex: 0 0 70%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.container2 ul li {
+    padding-top: 10px;
+}
+
+.container2 a {
+    text-decoration: underline;
+    color: #3a4458;
+}
+
+/* combines two container3 elements into one to flex in a row */
+.projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* headers for each photo */
+.container3 a,
+.container5 a {
+    font-size:18px;
+    text-decoration: none;
+}
+
+/* spaces the small boxes in the same row apart from each other */
+.container3,
+.container5 {
+    margin-right: 50px;
+}
+
+/* smaller image for each project (not the group project) */
+.container3 img,
+.container5 img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(43, 241, 248);
+    height: 250px;;
+    width: 350px;
+}
+
+/* the image glows upon the mouse hovering over it */
+.container3 img:hover,
+.container5 img:hover {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgb(0, 255, 255);
+    -moz-box-shadow: 0px 0px 30px 0px rgb(0, 255, 255);
+    box-shadow: 0px 0px 30px 0px rgb(0, 255, 255);
+}
+
+/* to indicate once the project is clicked on */
+.container3 img:active,
+.container5 img:active {
+    border-width: 10px;
+}
+
+/* Positions the text box over the image */
+.container3 #absolute,
+.container5 #absolute {
+    margin-top: -80px;
+    margin-left: 0;
+}
+
+/* the contact footer */
+.container4 {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container4 .layout {
+    flex-direction: column;
+}
+
+.container4 h2,
+.container4 li {
+    margin: 5px;
+}
+
+/* the large image above container3 */
+.container5 img{
+    width: 750px;
+}
+
 footer {
-    padding: 60px;
+    padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: #3a4458;
@@ -228,13 +214,9 @@ footer {
 
 footer h2,
 footer p,
+footer ul,
 footer a:link,
 footer a:visited {
-    color: #fff;
-}
-
-footer ul {
-    margin-bottom: 40px;
     color: #fff;
 }
 
