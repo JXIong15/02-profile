@@ -11,8 +11,9 @@
 * By clicking on the embedded links, the user will be brought to the correct websites.
 * By clicking on any of the "My Work" images and text labels, the user will be brought to the working application I have completed.
 * In the "Contact Me" section: T
-    * The user can click on the underlined email to bring up their email application. The email line will already have my email on it.
+    * By clicking on the underlined email, the user's default email application will open up with my email already in the recipient liine.
     * By clicking on the LinkedIn link, the user is brought ot my LinkedIn profile.
+    * By clicking on the Resume link, my resume is automatically downloaded on the user's computer.
     * By clicking "Back to Top" the user is brought back to the top of the website with the headings.
 
 
