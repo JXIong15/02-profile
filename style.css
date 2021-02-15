@@ -1,24 +1,23 @@
-
-/* allows text boxes to overlay other elements */
-#absolute {
-    position: absolute;
-    padding: 10px;
-    text-align: center;
-    background: rgb(43, 241, 248);
-    margin-top: 20px;
-    margin-left: -20px;
+* {
+    max-width: 100%;
 }
 
 header {
-    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #3a4458;
     color: #3a4458;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
     font-size: 30px;
+    padding: 10px;
+    background-color: rgb(43, 241, 248);
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 
@@ -26,7 +25,6 @@ header h1 {
 
 header div {
     padding-top: 15px;
-    float: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
@@ -34,12 +32,14 @@ header div {
 header a {
     color: #eee; 
     text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
-header div ul li {
-    list-style-type: none;
-    display: inline-block;
+header div ul {
     margin-left: 25px;
+    flex-direction: row;
+    display: inline-flex;
 }
 
 /* Formatting for the picture under the main heading */
@@ -90,6 +90,7 @@ p {
     background-color: #3a4458;
     width: 15px;
     margin-bottom: 40px;
+    margin-right: 50px;
     flex: 0 0 5px;
 }
 
@@ -117,8 +118,8 @@ h3 {
 }
 
 .container2 {
-    flex: 0 0 70%;
-    margin-left: 50px;
+    /* flex: 0 0 70%; */
+    /* margin-left: 50px; */
     margin-bottom: 50px;
 }
 
@@ -134,21 +135,27 @@ h3 {
 /* combines two container3 elements into one to flex in a row */
 .projects {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    padding-top: 40px;
 }
 
-/* headers for each photo */
-.container3 a,
-.container4 a {
-    font-size:18px;
-    text-decoration: none;
-}
-
-/* spaces the small boxes in the same row apart from each other */
+/* container3: spaces the small boxes in the same row apart from each other */
+/* container4: large image above the smaller ones */
 .container3,
 .container4 {
     margin-right: 50px;
+    width: 100%;
+    
+}
+
+/* headers for each photo */
+#text {
+    margin-top: -80px;
+    margin-left: 0;
+    font-size:18px;
+    background-color: rgb(43, 241, 248);
+    padding: 10px;
+    position: absolute;
+    text-align: center;
 }
 
 /* smaller image for each project (not the group project) */
@@ -157,8 +164,8 @@ h3 {
     border-style: solid;
     border-width: 5px;
     border-color: rgb(43, 241, 248);
-    height: 250px;;
-    width: 350px;
+    height: 250px;
+    width: 100%;
 }
 
 /* the image glows upon the mouse hovering over it */
@@ -181,13 +188,7 @@ h3 {
 /* Positions the text box over the image */
 .container3 #absolute,
 .container4 #absolute {
-    margin-top: -80px;
-    margin-left: 0;
-}
-
-/* the large image above container3 */
-.container4 img{
-    width: 750px;
+    
 }
 
 /* the contact footer */

@@ -30,7 +30,6 @@
 ## Tasks Completed
 
 * Referenced the Horiseon code.
-    * Used the absolute function to overlay.
 * Typed on index.html first to put in all of my my information without any formatting. Included pictures as well.
 * Used style.css to make heading.
 * Created containers.
@@ -38,20 +37,10 @@
         * In the "About Me" section, container1 includes my picture.
     * container2 is everything on the right of the line in each section.
     * container3 is each individual small photo along with their overlapping labels in the "My Work" section.
-        * Used the abosolute function to overlay the text label.
+        * Used the absolute function to overlay the text label.
     * container4 is the large image above the smaller ones in the "My Work" section.
     * container5 is the footer with the contact infomation and copyright.
 * Linked correct working links. (See Functionality above)
 
 - - -
 © 2021 Jou Xiong
-
-## Acceptance Criteria
-
-```
-GIVEN I need to sample a potential employee's previous work
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-
-NEED THE WEBSITE TO WORK
