@@ -17,17 +17,6 @@
     * By clicking "Back to Top" the user is brought back to the top of the website with the headings.
 
 
-## Website Images
-* Heading and About Me: 
-![Heading and About Me](./Assets/Header.png)
-
-* My Work: 
-![My Work](./Assets/Work.png)
-
-* Contact Me: 
-![Contact Me](./Assets/Contact.png)
-
-
 ## Tasks Completed
 
 * Referenced the Horiseon code.
@@ -43,5 +32,17 @@
     * container5 is the footer with the contact infomation and copyright.
 * Linked correct working links. (See Functionality above)
 
+
+## Website Images
+* Heading and About Me: 
+![Heading and About Me](./Assets/Header.png)
+
+* My Work: 
+![My Work](./Assets/Work.png)
+
+* Contact Me: 
+![Contact Me](./Assets/Contact.png)
+
+
 - - -
-© 2021 Jou Xiong
+© 2021 Jou Xiong, Northwestern Coding Bootcamp
