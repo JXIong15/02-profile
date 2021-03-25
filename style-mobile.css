@@ -1,0 +1,35 @@
+@media only screen and (max-device-width: 500px) {
+    body {
+        font-size: xx-large;
+    }
+    main {
+        display: flex;
+    }
+
+    .layout {
+        flex-direction: column;
+        margin: 5%;
+    }
+    
+    /* GET THIS TO WORK */
+    p {
+        font-size: larger;
+    }
+
+    /* get this to show */
+    .layout .split {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex: 0 0 5px;
+    }
+
+    .container1 {
+        margin-top: -7%;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+}

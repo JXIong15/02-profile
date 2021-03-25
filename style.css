@@ -20,6 +20,9 @@ header h1 {
     margin-bottom: 10px;
 }
 
+ul {
+    padding-left: 0;
+}
 
 /* formatting for subheadings */
 
@@ -118,8 +121,6 @@ h3 {
 }
 
 .container2 {
-    /* flex: 0 0 70%; */
-    /* margin-left: 50px; */
     margin-bottom: 50px;
 }
 
@@ -135,7 +136,7 @@ h3 {
 /* combines two container3 elements into one to flex in a row */
 .projects {
     display: flex;
-    padding-top: 40px;
+    
 }
 
 /* container3: spaces the small boxes in the same row apart from each other */
@@ -144,17 +145,20 @@ h3 {
 .container4 {
     margin-right: 50px;
     width: 100%;
+    padding-top: 40px;
 }
 
 /* headers for each photo */
 #text {
-    margin-top: -80px;
+    margin-top: -85px;
     margin-left: 0;
     font-size:18px;
     background-color: rgb(43, 241, 248);
     padding: 10px;
     position: absolute;
     text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 /* smaller image for each project (not the group project) */
@@ -165,6 +169,7 @@ h3 {
     border-color: rgb(43, 241, 248);
     height: 250px;
     width: 100%;
+    border-radius: 10px;
 }
 
 /* the image glows upon the mouse hovering over it */
@@ -182,12 +187,6 @@ h3 {
 .container3 img:active,
 .container4 img:active {
     border-width: 10px;
-}
-
-/* Positions the text box over the image */
-.container3 #absolute,
-.container4 #absolute {
-    
 }
 
 /* the contact footer */
@@ -223,3 +222,8 @@ footer a:visited {
 footer a:hover {
     color: rgb(43, 241, 248);
 }
+ footer li {
+    list-style: none;
+ }
+
+ 
