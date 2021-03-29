@@ -1,11 +1,14 @@
-@media only screen and (max-width: 7254px) {
+@media only screen and (max-width: 750px) {
     body {
-        font-size: xx-large;
+        /* font-size: xx-large; */
     }
     main {
         display: flex;
     }
-    
+    .layout {
+        flex-direction: column;
+        margin: 5%;
+    }
     
     /* GET THIS TO WORK */
     p {
