@@ -1,26 +1,23 @@
 @media only screen and (max-width: 750px) {
-    body {
-        /* font-size: xx-large; */
+    body, .layout p {
+        font-size: x-large;
     }
     main {
         display: flex;
     }
+
     .layout {
         flex-direction: column;
         margin: 5%;
     }
-    
-    /* GET THIS TO WORK */
-    p {
-        font-size: larger;
+
+    .layout .container1 h2 {
+        margin-bottom: 10px;
     }
 
     /* get this to show */
     .layout .split {
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        flex: 0 0 5px;
+        display: none;
     }
 
     .container1 {
@@ -29,6 +26,24 @@
 
     .projects {
         flex-direction: column;
+    }
+
+
+
+
+    .container5 h2 {
+        font-size: smaller;
+    }
+
+    .container5 .layout ul {
+        font-size: x-small;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* NEED THIS TO WORK */
+    .container5 p {
+        font-size: 10px;
     }
 
 }

@@ -77,6 +77,10 @@ p {
     color: #3a4458;
 }
 
+.sub {
+    margin-left: 30px;
+}
+
 .content {
     display: inline-block;
     margin: 20px;
@@ -118,6 +122,10 @@ h3 {
 .container1 img {
     margin-top: 10px;
     height: 275px;
+    border-radius: 10px;
+    border: solid;
+    border-color: #3a4458;
+    border-width: 5px;
 }
 
 .container2 {
@@ -219,9 +227,18 @@ footer a:visited {
     color: #fff;
 }
 
-footer a:hover {
+footer a:hover,
+a:hover,
+.container2 a:hover {
     color: rgb(43, 241, 248);
 }
+
+.container3 a:hover,
+.container4 a:hover {
+    color: white;
+}
+
+
  footer li {
     list-style: none;
  }
