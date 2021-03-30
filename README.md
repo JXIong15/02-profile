@@ -8,7 +8,7 @@
 ## Table of Contents
 * [Introduction](#introduction)
 * [Functionality](#functionality)
-* [New Tasks Completed](#new-tasks-completed-3/29/21)
+* [New Tasks Completed](#new-tasks-completed)
 * [Tasks Completed](#tasks-completed)
 * [Technologies Used](#technologies-used)
 * [Website Demos](#website-demos)
@@ -32,7 +32,7 @@ This is an online portfolio of my work so far as a junior software developer. It
     * By clicking "Back to Top" the user is brought back to the top of the website with the headings.
 
 
-## New Tasks Completed 3/29/21
+## New Tasks Completed
 * Added curves to all the image corners
     * Added a border to my profile image
 * Added styling and formatting for mobile response
@@ -64,12 +64,12 @@ This is an online portfolio of my work so far as a junior software developer. It
 
 
 ## Website Demos
-* Mobile 
+* Mobile <br>
 ![Mobile Heading](./Assets/mobile-heading.png)
 ![Mobile Work](./Assets/mobile-work.png)
 ![Mobile Contact](./Assets/mobile-contact.png)
 
-* Desktop
+* Desktop <br>
 ![Desktop Demo](./Assets/Desktop-Profile.gif)
 
 
