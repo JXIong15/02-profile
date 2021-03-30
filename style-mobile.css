@@ -1,3 +1,4 @@
+/* for minimizing window */
 @media only screen and (max-width: 750px) {
     body, 
     .layout p {
@@ -53,5 +54,75 @@
         font-size: small;
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .container5 .top-el {
+        font-size: small;
+        margin-top: 10px;
+    }
+}
+
+
+/* For mobile/smaller screen devices */
+@media only screen and (max-device-width: 750px) {
+    body, 
+    .layout p {
+        font-size: x-large;
+    }
+    main {
+        display: flex;
+    }
+
+    .layout {
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    .layout .container1 h2 {
+        margin-bottom: 10px;
+    }
+
+    /* get this to show */
+    .layout .split {
+        display: none;
+    }
+
+    .container1 {
+        margin-top: -7%;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    body footer {
+        padding: 10px;
+    }
+
+    footer .layout {
+        margin: 15px;
+    }
+
+    footer .layout h2 {
+        font-size: smaller;
+    }
+
+    footer ul {
+        margin: 5px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    .container5 .layout ul {
+        font-size: small;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container5 .top-el {
+        font-size: small;
+        margin-top: 10px;
     }
 }
