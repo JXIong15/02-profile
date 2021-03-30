@@ -1,5 +1,6 @@
 @media only screen and (max-width: 750px) {
-    body, .layout p {
+    body, 
+    .layout p {
         font-size: x-large;
     }
     main {
@@ -28,22 +29,29 @@
         flex-direction: column;
     }
 
+    body footer {
+        padding: 10px;
+    }
 
+    footer .layout {
+        margin: 15px;
+    }
 
-
-    .container5 h2 {
+    footer .layout h2 {
         font-size: smaller;
     }
 
-    .container5 .layout ul {
-        font-size: x-small;
-        display: flex;
-        justify-content: space-evenly;
+    footer ul {
+        margin: 5px;
     }
 
-    /* NEED THIS TO WORK */
-    .container5 p {
+    footer p {
         font-size: 10px;
     }
 
+    .container5 .layout ul {
+        font-size: small;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
