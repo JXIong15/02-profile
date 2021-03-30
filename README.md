@@ -75,6 +75,7 @@ This is an online portfolio of my work so far as a junior software developer. It
 ## Known Bugs
 * Unless I change line 1 of style-mobile.css from "max-width: 750px" to "max-device-width: 750px", the user cannot use the "Inspect" tool to see the changes in the window.
     * If I use "max-device-width: 750px", then the user won't see the change when the window is being adjusted outside of the "Inspect". Changes are visible in the "Inspect".
+    * I solved this issue by adding the same code with different media labels.
 
 
 ## Contact Me
