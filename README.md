@@ -65,7 +65,7 @@ This is an online portfolio of my work so far as a junior software developer. It
 
 ## Website Demos
 * Mobile 
-![Heading and About Me](./Assets/Header.png)
+![Heading and About Me](./Assets/mobile-profile.gif)
 
 * Desktop
 ![My Work](./Assets/Desktop-Profile.gif)
